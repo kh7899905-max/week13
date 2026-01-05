@@ -32,6 +32,6 @@ jobs:
         run: docker image build -t ${{secrets.DH_UN}}/app:latest
       - name: Push Docker Image on DH
         run: docker push ${{secrets.DH_UN}}/app:latest
-        uses: ${{secrets.DH_UN}}/app:latest
+        
 
 
