@@ -1,0 +1,3 @@
+/* Portfolio page styles */
+body { color: red; }
+.portfolio { display: flex; flex-wrap: wrap; }
